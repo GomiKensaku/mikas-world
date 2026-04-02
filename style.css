@@ -1,0 +1,66 @@
+body {
+  font-family: 'Noto Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header .jp {
+  font-size: 1.5rem;
+  color: #888;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.subtitle {
+  color: #555;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-preview h2 {
+  margin-bottom: 0.2rem;
+}
+
+.post-preview .date {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.post-preview .excerpt {
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  border-top: 1px solid #eee;
+}
